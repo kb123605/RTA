@@ -4,6 +4,7 @@ FROM python:3.10-slim-bullseye
 
 WORKDIR /app
 
+COPY model.pkl .
 COPY app.py .
 COPY requirements.txt .
 
